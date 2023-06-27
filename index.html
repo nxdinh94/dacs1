@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- swiper support -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/animation.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Pettu</title>
+  </head>
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#navbarExample"
+    onscroll="myFunction()"
+  >
+    <div class="container-fluid" id="home">
+      <nav class="navbar navbar-expand-lg fixed-top py-2" id="navbar">
+        <div class="container px-4">
+          <a class="navbar-brand" href="#home"
+            ><img src="./img/logo-light.png" alt="alternative" class="px-2"
+          /></a>
+          <button
+            class="navbar-toggler nav-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            onclick="hiddenSocial()"
+          >
+            <span class="navbar-toggler-icon text-white"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link icon-social" href="index.html">Trang chủ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link icon-social" href="service.html">Dịch vụ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link icon-social" href="camnang.html">Cẩm nang</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link icon-social" href="news.html">Tin tức</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link icon-social" href="contact.html">Liên hệ</a>
+              </li>
+              <li class="nav-item nav-item-social">
+                <div class="container">
+                  <a class="nav-link icon-social-2" href="#"
+                    ><i class="bx bxl-facebook fs-4"></i
+                  ></a>
+                  <a class="nav-link icon-social-2" href="#"
+                    ><i class="bx bxl-tiktok fs-4"></i
+                  ></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- /navbar -->
+    </div>
+
+    <!-- Your content here -->
+
+    <!-- full wraper start -->
+    <main class="full-wrapper" id="home-section">
+      <div class="header">
+        <div class="container overflow-hidden">
+          <div class="row">
+            <div class="col-md-12 col-lg-7 col-10 col-sm-11 px-5">
+              <div class="text-container fw-bold">
+                <p class="he-slogan pink">Chúng ta yêu thú cưng !!!</p>
+              </div>
+              <div class="text-container">
+                <p class="he-h1">
+                  Tôi luôn sẵn sàng chăm sóc thú cưng của bạn!
+                </p>
+              </div>
+              <div class="text-container my-4">
+                <p class="idiom">
+                  Chó là điều duy nhất trên trái đất yêu bạn hơn yêu chính nó -
+                  Josh Billings
+                </p>
+              </div>
+
+              <button
+                type="button"
+                class="btn btn-head btn-warning mt-3 fs-4 fw-bold"
+              >
+                <a
+                  href="./contact.html"
+                  style="text-decoration: none"
+                  class="text-white"
+                  >Contact now</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- /header -->
+      </div>
+
+      <!-- What we offer -->
+      <div class="w-offer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="w-image">
+                <div class="img">
+                  <img
+                    class="img-fluid"
+                    loading="lazy"
+                    src="./img/about-image.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 w-text">
+              <div class="title d-flex">
+                <img
+                  src="./img/icons8-cat-footprint-16.png"
+                  alt="alternation"
+                  loading="lazy"
+                />
+                <p class="m-0 pt-1 pink">Những gì chúng tôi cung cấp</p>
+              </div>
+              <p class="h1 res-title">CHÚNG TÔI LÀ TỐT NHẤT</p>
+              <p class="p1 p-text">
+                Chúng tôi cung cấp các sản phẩm và dịch vụ chăm sóc thú cưng,
+                bao gồm thức ăn, đồ dùng, sản phẩm chăm sóc, bệnh viện thú y, và
+                spa chăm sóc thú cưng. Bên cạnh đó, chúng tôi còn cung cấp các
+                tư vấn và hướng dẫn chăm sóc thú cưng để giúp người dùng có thể
+                chăm sóc thú cưng của mình một cách tốt nhất. Với các chương
+                trình khuyến mãi và giảm giá hấp dẫn, chúng tôi mong muốn mang
+                đến cho khách hàng những trải nghiệm mua sắm tốt nhất.
+              </p>
+              <ul class="w-list">
+                <li>
+                  <p class="p-text-item">Thông tin về các loại thú cưng</p>
+                </li>
+                <li><p class="p-text-item">Tư vấn hành vi</p></li>
+                <li><p class="p-text-item">Chuẩn đoán bệnh tật</p></li>
+                <li><p class="p-text-item">Chi phí ưu đãi</p></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /w-offer -->
+
+      <div class="checkin">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="checkin-img">
+                <img
+                  src="./img/check-image.png"
+                  alt="alternative"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+            <!--/col-lg-6-->
+            <div class="col-lg-6 checkin-text my-lg-0 my-md-5 my-3 py-3">
+              <p class="title m-0 pink">Check in time</p>
+              <p class="h1 slogan res-title">
+                CHÚNG TÔI MANG LẠI NIỀM VUI CHO HỌ
+              </p>
+              <p class="p3 p-text">
+                Chúng tôi luôn sẵn sàng phục vụ khách hàng trong khung giờ làm
+                việc linh hoạt và tiện lợi, để đảm bảo sự hài lòng và tin tưởng
+                của khách hàng.
+              </p>
+              <ul class="checkin-list">
+                <li class="checkin-item">
+                  <p class="h5 p-text-item">Từ 9:00 đến 21:00</p>
+                  <p class="checkin-script p-text">
+                    Khung giờ làm việc tiệc vời, thuận tiện cho mọi thứ.
+                  </p>
+                </li>
+                <li class="checkin-item">
+                  <p class="h5 p-text-item">Dịch vụ khẩn cấp</p>
+                  <p class="checkin-script p-text">
+                    Hãy hoàn toàn yên tâm, chúng tôi luôn sẵn sàng vì bạn
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <!--/col-lg-6-->
+          </div>
+        </div>
+        <!--container-->
+      </div>
+      <!-- /Check in -->
+
+      <div class="decor">
+        <div class="container">
+          <div class="row">
+            <div class="col-12"></div>
+          </div>
+        </div>
+      </div>
+      <!--/decor-->
+
+      <!-- slider -->
+      <section>
+        <div class="swiper mySwiper container">
+          <div class="swiper-wrapper conent">
+            <div class="swiper-slide card">
+              <div class="card-content">
+                <div class="image">
+                  <img
+                    src="gallery/golden.jpg"
+                    class="img-fluid"
+                    alt="alternation"
+                  />
+                </div>
+
+                <div class="button">
+                  <button class="button1">Xem chi tiết</button>
+                </div>
+              </div><!--CardConent-->
+            </div><!--/card-->
+            <div class="swiper-slide card">
+              <div class="card-content">
+                <div class="image">
+                  <img
+                    src="gallery/baby-cat.jpg"
+                    alt=""
+                    class="mx-auto d-block"
+                  />
+                </div>
+
+                <div class="button">
+                  <button class="button1">Xem chi tiết</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide card">
+              <div class="card-content">
+                <div class="image">
+                  <img src="gallery/shiba.jpg" alt="" />
+                </div>
+
+                <div class="button">
+                  <button class="button1">Xem chi tiết</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide card">
+              <div class="card-content">
+                <div class="image">
+                  <img src="gallery/meo-trang.jpg" alt="" />
+                </div>
+
+                <div class="button">
+                  <button class="button1">Xem chi tiết</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide card">
+              <div class="card-content">
+                <div class="image">
+                  <img src="gallery/chó lạp xưởng.png" alt="" />
+                </div>
+
+                <div class="button">
+                  <button class="button1">Xem chi tiết</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide card">
+              <div class="card-content">
+                <div class="image">
+                  <img src="gallery/samoyed.jpg" alt="" />
+                </div>
+
+                <div class="button">
+                  <button class="button1">Xem chi tiết</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide card">
+              <div class="card-content">
+                <div class="image">
+                  <img src="gallery/Poodle.jpg" alt="" />
+                </div>
+
+                <div class="button">
+                  <button class="button1">Xem chi tiết</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide card">
+              <div class="card-content">
+                <div class="image">
+                  <img src="gallery/meo-ba-tu.jpg" alt="" />
+                </div>
+                <div class="button">
+                  <button class="button1">Xem chi tiết</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </section>
+      <!--/slider-->
+
+      <div class="services">
+        <div class="container ser-container">
+          <div class="row">
+            <div class="col-12 text-center ser-title">
+              <p class="pink">Dịch vụ</p>
+              <p class="h1 res-title">CHÚNG TÔI CUNG CẤP DỊCH VỤ</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 ser-items">
+              <div class="ser-section">
+                <div class="thumnail">
+                  <div class="thumnail-icon">
+                    <i class="bx bxs-dog"></i>
+                  </div>
+
+                  <p class="h3 fw-bolder">Dog boarding</p>
+                  <p class="p-text">
+                    Dịch vụ chăm sóc cho chó trong một khoảng thời gian nhất
+                    định mà chủ nhân không ở bên.
+                  </p>
+                </div>
+
+                <div class="thumnail">
+                  <div class="thumnail-icon">
+                    <i class="bx bxs-cat"></i>
+                  </div>
+                  <p class="h3 fw-bolder">Cat boarding</p>
+                  <p class="p-text">
+                    Dịch vụ chăm sóc cho mèo trong một khoảng thời gian nhất
+                    định mà chủ nhân không ở bên.
+                  </p>
+                </div>
+
+                <div class="thumnail">
+                  <div class="thumnail-icon">
+                    <i class="bx bxs-bowl-hot"></i>
+                  </div>
+                  <p class="h3 fw-bolder">Healthy meals</p>
+                  <p class="p-text">
+                    Cung cấp bữa ăn được thiết kế để cung cấp đầy đủ dinh dưỡng
+                    và các chất cần thiết cho thú cưng.
+                  </p>
+                </div>
+              </div>
+              <!--/ser-section-->
+            </div>
+            <!--/ser-items-->
+          </div>
+          <!--end row-->
+        </div>
+        <!--End container-->
+      </div>
+
+      <!--/Servive  -->
+
+      <!-- /slider -->
+      <div class="self-adver">
+        <div class="container px-lg-5 px-md-0">
+          <div class="row">
+            <div class="self-adver-1 col-lg-8">
+              <p class="h1 res-title">
+                Chúng tôi yêu quý và bảo vệ thú cưng của bạn
+              </p>
+              <p class="content fw-bold p-text">
+                Yêu quý và bảo vệ thú cưng là rất quan trọng để đảm bảo rằng
+                chúng có một cuộc sống khỏe mạnh và hạnh phúc.
+              </p>
+              <p class="content p-text">
+                Cung cấp cho thú cưng của bạn một môi trường sống an toàn và
+                thoải mái, bao gồm đủ không gian để chúng có thể di chuyển và
+                nghỉ ngơi.
+              </p>
+              <p class="content p-text">
+                Cung cấp cho thú cưng của bạn các sản phẩm và thực phẩm chất
+                lượng, đảm bảo chúng được cung cấp đầy đủ dinh dưỡng và các chất
+                dinh dưỡng cần thiết.
+              </p>
+              <p class="content p-text">
+                Tôn trọng và quan tâm đến nhu cầu và tính cách của thú cưng của
+                bạn, và cung cấp cho chúng sự chăm sóc và tình yêu.
+              </p>
+            </div>
+            <!-- self-adver-1 -->
+            <div class="self-adver-2 col-lg-4 p-4">
+              <p class="h4 fw-bold mb-3 pink" style="color: #ec5078">
+                Vì sao chọn chúng tôi
+              </p>
+              <ul class="self-adver-list">
+                <li class="py-1 p-text-item">
+                  Cung cấp thông tin chất lượng và chính xác về chăm sóc thú
+                  cưng.
+                </li>
+                <li class="py-1 p-text-item">
+                  Cung cấp những dịch vụ tốt nhất về thú cưng cho khách hàng.
+                </li>
+                <li class="py-1 p-text-item">
+                  Bảo mật thông tin về tính riêng tư và an toàn cho khách hàng.
+                </li>
+                <li class="py-1 p-text-item">
+                  Cập nhật thường xuyên thông tin nhanh và chính xác nhất về thú
+                  cưng.
+                </li>
+                <li class="py-1 p-text-item">
+                  Cam kết mang đến cho khách hàng sản phẩm và dịch vụ chất
+                  lượng.
+                </li>
+              </ul>
+            </div>
+            <!-- self-adver-2 -->
+
+            <div class="self-adver-3 col-lg-4 d-flex flex-column text-center mt-lg-4">
+              <div class="head-img">
+                <img
+                  src="img/icons8-corgi-80.png"
+                  loading="lazy"
+                  alt="alternative"
+                />
+              </div>
+              <p class="h4 fw-bold mb-3">Vui chơi giải trí</p>
+              <p class="content p-text">
+                Các hoạt động giúp thú cưng của bạn có thể vui chơi, giải trí và
+                tận hưởng cuộc sống.
+              </p>
+            </div>
+            <!-- self-adver-3 -->
+
+            <div
+              class="self-adver-3 col-lg-4 d-flex flex-column text-center mt-lg-4"
+            >
+              <div class="head-img">
+                <img
+                  src="img/icons8-dog-house-80.png"
+                  loading="lazy"
+                  alt="alternative"
+                />
+              </div>
+              <p class="h4 fw-bold mb-3">An toàn trên hết</p>
+              <p class="content p-text">
+                Đảm bảo thú cưng luôn được bảo vệ và tránh khỏi nguy hiểm trong
+                môi trường sống của chúng.
+              </p>
+            </div>
+            <!-- self-adver-4 -->
+            <div
+              class="self-adver-3 col-lg-4 d-flex flex-column text-center mt-lg-4"
+            >
+              <div class="head-img">
+                <img
+                  src="img/icons8-female-user-80.png"
+                  loading="lazy"
+                  alt="alternative"
+                />
+              </div>
+              <p class="h4 fw-bold mb-3">Hỗ trợ chất lượng</p>
+              <p class="content p-text">
+                Các dịch vụ và sản phẩm được cung cấp để hỗ trợ cho sức khỏe và
+                sự phát triển của thú cưng.
+              </p>
+            </div>
+            <!-- self-adver-5 -->
+          </div>
+        </div>
+        <!-- /container -->
+      </div>
+      <!-- /self-adver -->
+
+      <!-- footer -->
+      <div class="footer">
+        <div class="container p-3">
+          <div class="row general-row">
+            <div class="col-md-6 col-xl-3 col-12 px-3">
+              <a href="#" class="navbar-brand"
+                ><img src="./img/logo-light.png" alt="alternative"
+              /></a>
+              <p class="text-white promisee mt-3 p-text">
+                Trang web <i>Pettu</i> mang đến cho quý khách hàng các dịch vụ
+                chăm sóc thú cưng tiên tiến nhất, cùng với đội ngũ nhân viên
+                chuyên nghiệp, hứa hẹn mang đến cho quý khách sự hài lòng tuyệt
+                đối.
+              </p>
+            </div>
+            <div class="col-md-6 col-xl-3 col-6 px-2 px-xl-5">
+              <p
+                class="h4 pt-3 text-white fw-bold px-2"
+                style="
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                "
+              >
+                Khám phá
+              </p>
+              <div class="list-group">
+                <a href="#" class="list-group-item p-text">Cẩm nang</a>
+                <a href="#" class="list-group-item p-text">Dịch vụ</a>
+                <a href="" class="list-group-item p-text">Chứng thực</a>
+                <a href="" class="list-group-item p-text">Đội ngũ chuyên môn</a>
+                <a href="" class="list-group-item p-text">Liên hệ</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-3 col-6 px-2 px-xl-4">
+              <p
+                class="h4 pt-3 text-white fw-bold px-2"
+                style="
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                "
+              >
+                Ủng hộ
+              </p>
+              <div class="list-group">
+                <a href="#" class="list-group-item p-text">Tắm cho thú cưng</a>
+                <a href="#" class="list-group-item p-text">Kiểm tra sức khỏe</a>
+                <a href="" class="list-group-item p-text">Lau khô</a>
+                <a href="" class="list-group-item p-text">Chải lông</a>
+                <a href="" class="list-group-item p-text">Spa</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-3 col-12 px-2">
+              <p
+                class="h4 pt-3 text-white fw-bold px-2"
+                style="
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                "
+              >
+                Đăng kí
+              </p>
+              <p class="text-white px-3 mb-0 p-text">
+                Đăng ký tài khoản để nhận những thông tin hữu ích từ chúng tôi.
+              </p>
+              <div class="input-group px-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Nhập email tại đây"
+                />
+                <button class="btn btn-success" type="button">Go</button>
+              </div>
+            </div>
+            <!--/col-->
+          </div>
+          <!-- /row1 -->
+          <hr />
+          <div class="row">
+            <div
+              class="col-12 d-flex copy-right_section justify-content-between"
+            >
+              <div class="copy-right text-white">
+                <p>Copyright Petvn@. ALL Rights Reserved</p>
+              </div>
+              <div class="credit">
+                <img src="./img/credit-cards.png" alt="alternative" />
+              </div>
+            </div>
+          </div>
+          <!-- /row2 -->
+        </div>
+        <!-- /container p-3 -->
+      </div>
+      <!-- /footer -->
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/custom.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        // pagination: {
+        //   el: ".swiper-pagination",
+        //   clickable: true,
+        // },
+      });
+    </script>
+  </body>
+</html>

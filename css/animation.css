@@ -1,0 +1,66 @@
+
+@media (min-width:1210px) {
+    @keyframes bg-header {
+        from {
+            background-size: 120%;
+            
+        }
+
+        to {
+            
+            background-size: 100%;
+        }
+    }
+}
+@keyframes login {
+    form{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes slogan {
+    from {
+        transform: translateY(-45%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(0%);
+        opacity: 1;
+    }
+}
+@keyframes he-h1 {
+    from {
+        transform: translateY(-8%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(0%);
+        opacity: 1;
+    }
+}
+@keyframes idiom {
+    from {
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(0%);
+        opacity: 1;
+    }
+}
+@keyframes btn-head {
+    from {
+        transform: translateY(-20%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(0%);
+        opacity: 1;
+    }
+}

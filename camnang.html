@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/camnang.css" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Cẩm nang</title>
+  </head>
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#navbarExample"
+    onscroll="myFunction()"
+  >
+    <div class="container-fluid" id="home">
+      <nav class="navbar navbar-expand-lg fixed-top py-2" id="navbar">
+        <div class="container px-4">
+          <a class="navbar-brand" href="#home"
+            ><img src="./img/logo-light.png" alt="alternative" class="px-2"
+          /></a>
+          <button
+            class="navbar-toggler nav-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            onclick="hiddenSocial()"
+          >
+            <span class="navbar-toggler-icon text-white"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link icon-social" href="index.html">Trang chủ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link icon-social" href="service.html">Dịch vụ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link icon-social" href="camnang.html">Cẩm nang</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link icon-social" href="news.html">Tin tức</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link icon-social" href="contact.html">Liên hệ</a>
+              </li>
+              <li class="nav-item nav-item-social">
+                <div class="container">
+                  <a class="nav-link icon-social-2" href="#"
+                    ><i class="bx bxl-facebook fs-4"></i
+                  ></a>
+                  <a class="nav-link icon-social-2" href="#"
+                    ><i class="bx bxl-tiktok fs-4"></i
+                  ></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- /navbar -->
+    </div>
+
+    <!-- Your content here -->
+
+    <!-- full wraper start -->
+
+    <main class="full-wrapper" id="home-section">
+      <div class="header">
+        <div class="container overflow-hidden">
+          <div class="row">
+            <div class="col-12 px-5">
+              <div class="text-container">
+                <p class="h1">Cẩm Nang</p>
+
+                <p>
+                  <a href="index.html" class="text-end">Home</a
+                  ><span> / Cẩm nang</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /header -->
+      </div>
+
+      <div class="allcontent">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 side-right p-5" id="search1">
+              <div class="right-content">
+                <div class="search">
+                  <div class="search-text">
+                    <p class="m-0">Tìm kiếm</p>
+                  </div>
+                  <!--search-text-->
+                  <div class="input-group mb-3 px-md-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Search"
+                    />
+                    <button class="btn" type="submit">Go</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/search-->
+
+            <div class="col-lg-8">
+              <div class="row row-1">
+                <div class="col-12">
+                  <div class="content-1">
+                    <div class="img-big">
+                      <a href="#"
+                        ><img
+                          src="./img/Anh-meo-anh-long-ngan.jpg"
+                          alt="alternation"
+                          class="img-fluid"
+                      /></a>
+                    </div>
+                    <p class="h2 slogan">
+                      NUÔI THÚ CƯNG MANG LẠI CUỘC SỐNG TƯƠI ĐẸP CHO GIA ĐÌNH BẠN
+                    </p>
+                    <p class="p2">
+                      Nuôi thú cưng là một sở thích tốt đẹp của rất nhiều người
+                      trong đó đặc biệt là người cao tuổi và các em nhỏ.
+                    </p>
+                    <button class="btn btn-warning">Đọc thêm</button>
+                  </div>
+                </div>
+              </div>
+              <div class="row row-2">
+                <div class="col-md-6">
+                  <div class="content-1 mb-2">
+                    <div class="img">
+                      <a href="#"
+                        ><img
+                          src="./img/blog-4.jpg"
+                          alt="alternation"
+                          class="img-fluid"
+                      /></a>
+                    </div>
+                    <p class="h4 sub-slogan">Tip huấn luyện chó</p>
+                    <p class="p2">
+                      Đối với những bạn nuôi chó như thú cưng trong nhà thì việc
+                      huấn luyện chó không phải việc đơn giản nên ngay từ khi
+                      bắt đầu thì người chủ cần
+                    </p>
+                    <button class="btn btn-warning">Đọc thêm</button>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="content-1 mb-2">
+                    <div class="img">
+                      <a href="#"
+                        ><img
+                          src="https://rnz-ressh.cloudinary.com/image/upload/s--cFngyRPB--/ar_16:10,c_fill,f_auto,g_auto,q_auto,w_1050/v1666231925/4LJM4K4_koen_eijkelenboom_IWblYR8n9zw_unsplash_jpg"
+                          alt="alternation"
+                          class="img-fluid"
+                      /></a>
+                    </div>
+                    <p class="h4 sub-slogan">Tip huấn luyện mèo</p>
+                    <p class="p2">
+                      Mèo con, cũng giống như trẻ em, phải được dạy cách sống
+                      trong nhà của bạn, phải được huấn luyện để trở nên ngoan
+                      ngoãn và nghe lời.
+                    </p>
+                    <button class="btn btn-warning">Đọc thêm</button>
+                  </div>
+                </div>
+              </div>
+              <!--/row2-->
+              <div class="row row-3">
+                <div class="col-md-6">
+                  <div class="content-1 mb-2">
+                    <div class="img">
+                      <a href="#"
+                        ><img
+                          src="https://thegioivatcung.files.wordpress.com/2016/12/nhung-su-that-chung-minh-loai-meo-dang-xung-ba-the-gioi-hinh-2.jpg"
+                          alt="alternation"
+                          class="img-fluid"
+                      /></a>
+                    </div>
+                    <p class="h4 sub-slogan">
+                      Bạn muốn thú cưng của bạn ăn nhiều hơn?
+                    </p>
+                    <p class="p2">
+                      Thú cưng của bạn chán ăn? Hãy cùng chúng tôi tìm hiểu
+                      nguyên nhân và giải pháp nhé.
+                    </p>
+                    <button class="btn btn-warning">Đọc thêm</button>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="content-1 mb-2">
+                    <div class="img">
+                      <a href="#"
+                        ><img
+                          src="https://bizweb.dktcdn.net/100/303/962/files/bigstock-bathroom-to-a-dog-chow-chow-98780771-e1480633125374-1024x668.jpg?v=1585561765709"
+                          alt="alternation"
+                          class="img-fluid"
+                      /></a>
+                    </div>
+                    <p class="h4 sub-slogan">
+                      Cách vệ sinh cho chú chó đúng cách
+                    </p>
+                    <p class="p2">
+                      Những điều cần lưu ý khi vệ sinh và làm thế nào để chú chó
+                      của bạn được sạch sẽ nhât sau khi tắm.
+                    </p>
+                    <button class="btn btn-warning">Đọc thêm</button>
+                  </div>
+                </div>
+              </div>
+              <!--/row3-->
+            </div>
+            <div class="col-lg-4 side-right p-5">
+              <div class="right-content">
+                <div class="search" id="search2">
+                  <div class="search-text">
+                    <p class="m-0">Tìm kiếm</p>
+                  </div>
+                  <!--search-text-->
+                  <div class="input-group mb-3 px-md-3">
+                    <input type="text" class="form-control" placeholder="Search"/>
+                    <button class="btn" type="submit">Go</button>
+                  </div>
+                </div>
+                <!--/search-->
+
+                <div class="tags">
+                  <div class="tags-text">
+                    <p>Thẻ</p>
+                  </div>
+                  <button class="btn">Khách sạn thú cưng</button>
+                  <button class="btn">Trò chơi</button>
+                  <button class="btn">Thức ăn cho mèo và chó</button>
+                  <button class="btn">Chải chuốt</button>
+                  <button class="btn">Nhiều mẹo hay</button>
+                </div>
+
+                <div class="socials">
+                  <div class="so-text">
+                    <p>Mạng xã hội</p>
+                  </div>
+                  <div class="icon-media">
+                    <i class="bx bxl-facebook-circle"></i>
+                    <i class="bx bxl-tiktok"></i>
+                    <i class="bx bxl-twitter"></i>
+                    <i class="bx bxl-instagram-alt"></i>
+                  </div>
+                </div>
+                <div class="category">
+                  <div class="cat-text">
+                    <p>Thể loại</p>
+                  </div>
+                  <ul class="cat-list">
+                    <li class="cat-item">Thức ăn cho chó</li>
+                    <li class="cat-item">Mẹo</li>
+                    <li class="cat-item">Sự kiện</li>
+                    <li class="cat-item">Khách sạn cho mèo và chó</li>
+                  </ul>
+                </div>
+                <div class="in4">
+                  <div class="in4-text">
+                    <p>Thông tin</p>
+                  </div>
+                  <div>
+                    <ul class="cat-list">
+                      <li class="cat-item">Sức khỏe, dinh dưỡng</li>
+                      <li class="cat-item">Thuốc và phòng bệnh</li>
+                      <li class="cat-item">Chăm sóc và nuôi dưỡng</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!--/right-content-->
+            </div>
+            <!--/side-right-->
+          </div>
+        </div>
+        <!--container-->
+      </div>
+      <!-- /content -->
+
+      <!-- footer -->
+      <div class="footer">
+        <div class="container p-3">
+          <div class="row general-row">
+            <div class="col-md-6 col-xl-3 col-12 px-3">
+              <a href="#" class="navbar-brand"
+                ><img src="./img/logo-light.png" alt="alternative"
+              /></a>
+              <p class="text-white promisee mt-3">
+                Trang web <i>Petvn</i> mang đến cho quý khách hàng các dịch vụ
+                chăm sóc thú cưng tiên tiến nhất, cùng với đội ngũ nhân viên
+                chuyên nghiệp, hứa hẹn mang đến cho quý khách sự hài lòng tuyệt
+                đối.
+              </p>
+            </div>
+            <div class="col-md-6 col-xl-3 col-6 px-2 px-xl-5">
+              <p
+                class="h4 pt-3 text-white fw-bold px-2"
+                style="
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                "
+              >
+                Khám phá
+              </p>
+              <div class="list-group">
+                <a href="#" class="list-group-item">Cẩm nang</a>
+                <a href="#" class="list-group-item">Dịch vụ</a>
+                <a href="" class="list-group-item">Chứng thực</a>
+                <a href="" class="list-group-item">Đội ngũ chuyên môn</a>
+                <a href="" class="list-group-item">Liên hệ</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-3 col-6 px-2 px-xl-4">
+              <p
+                class="h4 pt-3 text-white fw-bold px-2"
+                style="
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                "
+              >
+                Ủng hộ
+              </p>
+              <div class="list-group">
+                <a href="#" class="list-group-item">Tắm cho thú cưng</a>
+                <a href="#" class="list-group-item">Kiểm tra sức khỏe</a>
+                <a href="" class="list-group-item">Lau khô</a>
+                <a href="" class="list-group-item">Chải lông</a>
+                <a href="" class="list-group-item">Spa</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-3 col-12 px-2">
+              <p
+                class="h4 pt-3 text-white fw-bold px-2"
+                style="
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                "
+              >
+                Đăng kí
+              </p>
+              <p class="text-white px-3 mb-0">
+                Đăng ký tài khoản để nhận những thông tin hữu ích từ chúng tôi.
+              </p>
+              <div class="input-group px-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Nhập email tại đây"
+                />
+                <button class="btn btn-success" type="button">Go</button>
+              </div>
+            </div>
+          </div>
+          <!-- /row1 -->
+          <hr />
+          <div class="row">
+            <div
+              class="col-12 d-flex copy-right_section justify-content-between"
+            >
+              <div class="copy-right text-white">
+                <p>Copyright Petvn@. ALL Rights Reserved</p>
+              </div>
+              <div class="credit">
+                <img src="./img/credit-cards.png" alt="alternative" />
+              </div>
+            </div>
+          </div>
+          <!-- /row2 -->
+        </div>
+        <!-- /container p-3 -->
+      </div>
+      <!-- /footer -->
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
